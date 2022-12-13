@@ -1,0 +1,364 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #FFEBCD;
+}
+
+.wrap{
+  max-width: 2250px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.main-header{
+  width: 100%;
+}
+
+.left{
+  float: left;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+
+.right{
+  float: right;
+}
+
+.right ul li{
+  display: inline-block;
+  padding: 35px 15px 5px 15px;
+  /* padding: 10px 15px 5px; */
+  font-size: 25px;
+  font-family: Montserrat;
+}
+
+.right a{
+  text-decoration: none;
+  color: #A52A2A;
+}
+
+
+.right a:hover{
+  color: #ffffff;
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+
+.banner{
+  position: relative;
+  background-color: #FFF8DC;
+}
+
+.banner img{
+  width: 100%;
+  height: 500px;
+}
+
+.banner-heading{
+  position: absolute;
+
+  transform: translate(15%, -476%);
+  font-size: 55px;
+  font-family: Montserrat;
+  color: #D2691E;
+  text-shadow: 0 0 3.8em #CD853F, 0 0 0.6em #CD853F;
+}
+
+.tag-para{
+  position: absolute;
+transform: translate(34%, -109%);
+  padding: 30px;
+  font-family: fantasy;
+  font-size: 30px;
+  color: #DC143C;
+  line-height: 58px;
+}
+
+/* HTML CARDS WITH ROW AND COLUMN */
+
+
+.card-section{
+  margin: 30px 0;
+}
+
+.wrapicecream{
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.column{
+  width: 23%;
+  float: left;
+  text-align: center;
+  background-color: #c4fb6d;
+  margin: 8px;
+}
+
+.image-border{
+  border-top: 5px solid white;
+}
+
+.card-para{
+  padding: 30px;
+  font-family: Montserrat;
+}
+
+.extra{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.section-title{
+  text-align: center;
+}
+
+.section-heading{
+  padding-top: 96px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.section-para{
+  padding-bottom: 20px;
+  font-family: Montserrat;
+}
+
+.section-column{
+  width: 23%;
+  float: left;
+  margin: 11px;
+}
+
+.image-heading{
+  font-family: Merriweather;
+  padding: 10px 0;
+}
+
+.img-section-trending{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.image-content{
+  font-family: Montserrat;
+}
+
+#property{
+  background-color: #c4fb6d;
+}
+h3{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: Merriweather;
+}
+
+.description{
+  text-align: center;
+}
+
+.property-heading{
+  padding-top: 70px;
+  padding-bottom: 20px;
+
+}
+
+.property-para{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+
+.property-row{
+  width: 100%;
+}
+
+.property-column{
+  width: 31.33%;
+  float: left;
+  margin: 11px;
+}
+
+.property-row-para{
+  text-align: left;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: Montserrat;
+}
+
+.property-image{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.property-image-1{
+  width: 80%;
+  border-radius: 10px;
+}
+
+.property-image-2{
+  width: 65%;
+  border-radius: 10px;
+}
+
+.our-company{
+  margin-bottom: 90px;
+}
+
+.company-description{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.company-description-para{
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: Montserrat;
+}
+
+.our-company-row{
+  width: 100%;
+}
+
+.our-company-column{
+  width: 48%;
+  float: left;
+  margin: 0 8px;
+}
+
+.about-text{
+  line-height: 1.5;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+.list{
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+
+.list li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.arrow-point{
+  float: left;
+  height: 20px;
+}
+
+.points{
+  padding-left: 30px;
+}
+
+.myButton {
+	box-shadow: 1px 11px 17px -6px #3e7327;
+	background:linear-gradient(to bottom, #c5fb6d 5%, #578540 100%);
+	background-color:#c5fb6d;
+	border-radius:6px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:-1px 2px 0px #5b8a3c;
+  margin-top: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #578540 5%, #c5fb6d 100%);
+	background-color:#578540;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.our-company-image{
+margin-top: 20px;
+height: 296px;
+}
+
+.footer-background{
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row-footer{
+  width: 100%;
+
+}
+
+.column-footer{
+  width: 23%;
+  float: left;
+  margin: 11px;
+}
+
+.footer-list{
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+
+}
+
+.list-item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-links{
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-links:hover{
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+
+h5{
+  font-family: Montserrat;
+  color: #c4fb6d;
+  text-shadow: 0 0 0.8em #c4fb6d, 0 0 0.6em #bac964;
+t
+}
+
+.company-address{
+  font-family: Merriweather;
+  font-size: 12px;
+  line-height: 3;
+  color: #ffffff;
+}
+
+.company-phone{
+  font-family: Merriweather;
+  font-size: 12px;
+  line-height: 3;
+  color: #ffffff;
+}
